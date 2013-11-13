@@ -19,7 +19,7 @@ Prerequisites
 Getting Started
 ---------------
 * Modify the existing test case to point to the correct Node execution path and test URL
-* Tests should inherit from the TestCase class
+* Tests should inherit from the TestCase class and be placed in zombie/tests
 * Run all tests in PHPUnit, or run a specific test with: `node TestInterface.js http://localhost Path/To/YourTest.js`
 
 Example Test
