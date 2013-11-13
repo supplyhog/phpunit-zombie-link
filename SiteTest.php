@@ -20,7 +20,7 @@ class SiteTest extends PHPUnit_Framework_TestCase {
 		$file = getcwd() . "/zombie/TestInterface.js";
 
 		//execute testing script
-        //assumes the default Node execution path for OSX
+        	//assumes the default Node execution path for OSX
 		$read = exec("/usr/local/bin/node {$file} http://localhost/index-test.php &");
 
 		//format response to be data provider compatible
